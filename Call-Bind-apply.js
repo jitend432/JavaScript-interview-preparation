@@ -1,7 +1,10 @@
 /*
 
-JavaScript offers call(), apply(), and bind() to control the value of this inside functions. These methods are useful for managing 
-function context, especially in object-oriented scenarios.
+JavaScript offers call(), apply(), and bind() to control the value of this inside functions. 
+These methods are useful for managing function context, especially in object-oriented scenarios.
+
+THIS KEYWORD =>
+"this refers to the object that is calling the function. It is used to access properties of that object."
 
 */
 const user = {

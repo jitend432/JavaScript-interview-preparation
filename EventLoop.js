@@ -1,5 +1,14 @@
 /*
 
+🎯 8. Interview Answer (short version)
+
+"Explain Event Loop"
+
+JavaScript is single-threaded, so it uses an event loop to handle asynchronous operations without blocking the main thread.
+Synchronous code runs in the call stack, while async tasks are handled by Web APIs.
+Once completed, callbacks are pushed into either the microtask queue (like Promises) or the callback queue (like setTimeout).
+The event loop continuously checks if the call stack is empty, then executes all microtasks first, followed by macrotasks.
+
 🔥 Thoda aur strong version (impress interviewer)
 
 “JavaScript is single-threaded, so it uses the event loop to handle asynchronous operations. 
