@@ -6,6 +6,9 @@ These methods are useful for managing function context, especially in object-ori
 THIS KEYWORD =>
 "this refers to the object that is calling the function. It is used to access properties of that object."
 
+🔥 Correct statement
+Arrow function apna this khud create nahi karta, balki outer scope se le leta hai
+
 */
 const user = {
     name: "Jitendra"   
