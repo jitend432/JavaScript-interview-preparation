@@ -1,0 +1,70 @@
+🔷 1. Setup & Config
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --list
+
+🔷 2. Repository Create / Clone
+git init
+git clone <repo-url>
+
+🔷 3. Basic Workflow (MOST IMPORTANT ⭐)
+git status
+git add .
+git add <file>
+git commit -m "message"
+git log
+
+🔷 4. Branching
+git branch
+git branch <branch-name>
+git checkout <branch>
+git checkout -b <branch-name>
+git switch <branch>
+git switch -c <branch>
+
+🔷 5. Merging
+git merge <branch>
+
+🔷 6. Rebasing
+git rebase <branch>
+git rebase -i HEAD~3
+
+🔷 7. Remote (GitHub / GitLab)
+git remote add origin <url>
+git remote -v
+git push origin <branch>
+git pull origin <branch>
+git fetch
+
+🔷 8. Undo / Reset (IMPORTANT ⚠️)
+git reset --soft HEAD~1
+git reset --mixed HEAD~1
+git reset --hard HEAD~1
+git revert <commit-id>
+
+🔷 9. Stashing
+git stash
+git stash pop
+git stash list
+git stash apply
+
+🔷 10. File Operations
+git rm <file>
+git mv <old> <new>
+
+🔷 11. Logs & History
+git log
+git log --oneline
+git diff
+git show <commit-id>
+
+🔷 12. Tags
+git tag
+git tag v1.0
+git push origin v1.0
+
+🔷 13. Advanced / Useful
+git cherry-pick <commit-id>
+git blame <file>
+git reflog
+git clean -f
