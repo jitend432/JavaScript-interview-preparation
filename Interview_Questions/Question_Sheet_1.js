@@ -2,7 +2,6 @@
 What is the difference between lexical scope and dynamic scope? 
 
 🔥 Short Answer
-
 Lexical scope → code likhte time decide hota hai (where function is defined)
 Dynamic scope → runtime pe decide hota hai (how function is called)
 
