@@ -1,0 +1,40 @@
+🔹 Correct & Professional Version
+👉 “ECMAScript is the standard that defines the rules and specifications for JavaScript.”
+
+Ya thoda aur strong 👇
+👉 “ECMAScript provides standardization to JavaScript by defining how the language should work.”
+
+
+🔹 Key Features of ES6
+
+You can mention 4–5 important ones:
+
+let and const – block-scoped variables
+Arrow functions (=>) – shorter function syntax
+Template literals – ${`this.name`} for string interpolation
+Destructuring – extract values from arrays/objects
+Default parameters – set default values in functions
+Spread & Rest operators (...)
+Classes – cleaner syntax for OOP
+Modules (import/export)
+
+
+🔹 Short History of JavaScript Versions
+📌 1. ES1 (1997)
+JavaScript ka first version
+📌 2. ES3 (1999)
+Popular version (basic JS jo hum padhte hai)
+📌 3. ES5 (2009)
+Strict mode
+Array methods (map, filter, forEach)
+📌 4. ES6 / ES2015 (2015) ⭐
+Biggest update
+Modern JS ka base
+📌 5. ES7+ (2016 → present)
+
+Har saal chhote updates aate hain:
+
+ES7: includes(), async/await
+1. Array.prototype.includes()
+2. Exponentiation Operator **
+ES8+: aur improvements

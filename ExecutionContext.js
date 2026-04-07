@@ -1,9 +1,7 @@
 /*
 🧠 1. Execution Context
 🔥 Interview Definition
-
-👉
-“Execution Context is the environment where JavaScript code is executed.”
+👉 “Execution Context is the environment where JavaScript code is executed.”
 
 ⚡ Types:
    Global Execution Context (GEC)
