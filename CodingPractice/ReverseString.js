@@ -1,8 +1,7 @@
 const name = "Jitendra Pratap"
 console.log(name.split("").reverse().join(""))
 
-
-
+//----------------------------------------------------
 
 function reverseInteger(num) {
     
@@ -18,5 +17,26 @@ function reverseInteger(num) {
     return isNegative ? -reversed : reversed;
 
 }
-
 console.log(reverseInteger(12345))
+
+//--------------------------------------------------------------
+
+// Reverse String Recurtion
+function reverseString(str) {
+    if(str==="") return "";
+    return reverseString(str.substring(1)) + str[0]
+}
+console.log(reverseString("Jitendra Pratap"))
+
+//-------------------------------------------------------------
+
+function reverse(str) {
+    let rev = [];
+    for(let i = str.length-1; i>=0; i--) {
+        rev.push(str[i])
+    }
+    return rev.join("");
+}
+console.log(reverse("Jitendra"));
+
+//---------------------------------------------------------------

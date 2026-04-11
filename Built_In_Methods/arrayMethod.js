@@ -1,17 +1,28 @@
+/*
+
+      push, pop
+      splice, slice
+      shift, unshift
+      Reverse, short, include,find
+      join, map, filter, reduce
+      every, some
+
+*/
+
 let arr = [1,2,3,4,5]
 
 arr.push(2)  //array ke end me add karta hai
 console.log("Push",arr) 
 
-arr.pop()  //array ke end me add karta hai
+arr.pop()  //array ke end me pop karta hai
 console.log("pop",arr)
 
 let b = [5,6,7,8,9]
 console.log("splice",b.splice(1,3))
-console.log("array after splice",b)
+console.log("array after splice",b) //original array change karega // Add / Remove / Replace
 
 let c = [5,6,7,8,9,8,2]
-console.log("slice",c.slice(1,3))
+console.log("slice",c.slice(1,3))  // new array // Copy / Extract
 
 let d = [5,6,7,8,9,8,2]
 console.log("shift",d.shift()) // shifted element return karta hai  //start me add karta hai
