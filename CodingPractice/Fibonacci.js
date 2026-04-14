@@ -13,3 +13,12 @@ function fibonacci(n) {
     console.log(result)
 }
 fibonacci(10)
+
+//--------------------------------------------------------------
+
+function fibo(num, a=0,b=1) {
+    if(num <= 1) return num;
+    console.log(a)
+    return fibo(num-1,b,a+b);
+}
+fibo(10);
