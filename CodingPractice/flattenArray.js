@@ -18,3 +18,26 @@ function flattenArray(arr) {
 
 // Example
 console.log(flattenArray([1, [2, [3, 4], 5], 6]));
+
+//---------------------------------------------------------
+// Iterative Approach
+
+function flattenArray(arr) {
+  let stack = [...arr];
+  let result = [];
+
+  while (stack.length) {
+    let item = stack.pop();
+
+    if (Array.isArray(item)) {
+      stack.push(...item);
+    } else {
+      result.push(item);
+    }
+  }
+
+  return result.reverse();
+}
+
+// Example
+console.log(flattenArray([1, [2, [3, 4], 5], 6]));
